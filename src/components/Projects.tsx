@@ -3,6 +3,7 @@ import { Button } from "./ui/button";
 import { motion } from "framer-motion";
 import chatpp from "../assets/projects/chatapp.png";
 import propsrental from "../assets/projects/propsrental.png";
+import riad from "../assets/projects/riad.png";
 
 export function Projects() {
   const projects = [
@@ -39,6 +40,21 @@ export function Projects() {
         "React frontend with TypeScript",
         "Redis for caching & performance",
         "User authentication system"
+      ]
+    },  {
+      id: 3,
+      title: "moonlight riad",
+      description: 'Moonlight Riad is a website concept I designed and developed for a riad located nearby, with the goal of presenting its rooms, services, atmosphere, and general information in a clean and elegant way.This project was initiated proactively as a way to demonstrate how the riad’s online presence could be improved. Although the riad had already started working with another developer by the time I presented it, the project remains a complete and polished example of my work and is therefore included in my portfolio.This version is a front-end showcase only (no SEO, no DNS, no public domain usage) and is presented purely for demonstration purposes.',
+      technologies: ["Vue", "Inertia.js", "Laravel", "MySQL", "Tailwind CSS"],
+      image: riad,
+      color: "blue",
+      link: "https://gray-pony-705077.hostingersite.com/",
+      showCode: false,
+      features: [
+        "Explore the different rooms and their details",
+        "Discover the riad’s services and amenities",
+        "Browse a photo gallery to get a feel for the place",
+        "Access practical information such as location and contact details",
       ]
     }
   ];
