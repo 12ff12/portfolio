@@ -44,7 +44,7 @@ export function Projects() {
     },  {
       id: 3,
       title: "moonlight riad",
-      description: 'Moonlight Riad is a website concept I designed and developed for a riad located nearby, with the goal of presenting its rooms, services, atmosphere, and general information in a clean and elegant way.This project was initiated proactively as a way to demonstrate how the riad’s online presence could be improved. Although the riad had already started working with another developer by the time I presented it, the project remains a complete and polished example of my work and is therefore included in my portfolio.This version is a front-end showcase only (no SEO, no DNS, no public domain usage) and is presented purely for demonstration purposes.',
+      description: 'Moonlight Riad is a website concept I designed and developed for a riad located nearby, with the goal of presenting its rooms, services, atmosphere, and general information in a clean and elegant way.This project was initiated proactively as a way to demonstrate how the riad’s online presence could be improved. Although the riad had already started working with another developer by the time I presented it, the project remains a complete and polished example of my work and is therefore included in my portfolio.This version is a front-end showcase only (no SEO, no DNS, no public domain usage) and is presented purely for demonstration purposes..',
       technologies: ["Vue", "Inertia.js", "Laravel", "MySQL", "Tailwind CSS"],
       image: riad,
       color: "blue",
